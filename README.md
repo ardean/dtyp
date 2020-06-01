@@ -7,6 +7,8 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/dtyp.svg)](https://npmjs.org/package/dtyp)
 [![License](https://img.shields.io/npm/l/dtyp.svg)](LICENSE.md)
 
+[[MS-DTYP]: Windows Data Types](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/cca27429-5689-4a16-b2b4-9325d93e4ba2)
+
 ## Installation
 ```sh
 $ npm i dtyp
