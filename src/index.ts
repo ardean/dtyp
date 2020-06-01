@@ -1,4 +1,4 @@
-export * from "./dtype";
+export * from "./dtyp";
 
-import * as dtype from "./dtype";
-export default dtype;
+import * as dtyp from "./dtyp";
+export default dtyp;

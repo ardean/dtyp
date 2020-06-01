@@ -1,0 +1,43 @@
+{
+  "name": "dtyp",
+  "version": "0.1.1",
+  "description": "DTYP / Windows Data Type library in TypeScript",
+  "main": "./dist/index.js",
+  "typings": "dist/index.d.ts",
+  "repository": "https://github.com/ardean/dtyp",
+  "bugs": "https://github.com/ardean/dtyp/issues",
+  "scripts": {
+    "start": "nodemon",
+    "build": "rm -rf dist && tsc",
+    "test": "mocha -r ts-node/register test/*.spec.ts --exit"
+  },
+  "keywords": [
+    "dtyp",
+    "windows-data-type",
+    "parse",
+    "serialize",
+    "filetime"
+  ],
+  "author": "ardean",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "moment-timezone": "^0.5.31"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/chai-datetime": "0.0.33",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.6",
+    "chai": "^4.2.0",
+    "chai-bytes": "^0.1.2",
+    "chai-datetime": "^1.6.0",
+    "mocha": "^7.2.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
+  }
+}

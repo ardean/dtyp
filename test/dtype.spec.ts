@@ -21,7 +21,7 @@ describe("dtyp", () => {
   });
 
   describe(`serializeFiletime(date: Date)`, () => {
-    it("returns dtype filetime buffer", () => {
+    it("returns dtyp filetime buffer", () => {
       const buffer = dtyp.serializeFiletime(testDate);
       assert.equalBytes(buffer, Array.from(testBuffer), "not a dtyp filetime buffer");
     });
